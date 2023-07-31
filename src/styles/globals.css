@@ -2,26 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+/* background rainbow gradient */
+/* define rainbow gradient */
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --rainbow: linear-gradient(
+    45deg,
+    #ffdede,
+    #ffeba1,
+    #cfffb3,
+    #a1e8e6,
+    #a1a6e8,
+    #e8a1e8
+  );
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+html {
+  background: var(--rainbow);
+  /* make it fit the whole screen */
+  height: 100%;
 }
