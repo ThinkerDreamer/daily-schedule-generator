@@ -36,8 +36,7 @@ Generates a schedule which starts at 8:10 AM and runs to 10:00 AM
 - Allow changing how much time to spend on each
 
 ## To use
+Either visit: https://thinkerdreamer.github.io/random-morning-routine/ to use the GitHub Pages-hosted version, or get the code locally and change it how you want it.
 This is a [Next.js project](https://nextjs.org/learn/basics/create-nextjs-app/setup), so when you've got the code you can simply use `npm run dev` or `npm run start` to start it.
 
-If you have trouble, check the link above. Just download the code of this app to your machine and follow the rest of the steps, using this app's code instead of creating a new one with `npx create-next-app@latest nextjs-blog ...`
-
-In a future version, I will deploy the app to a host, so we won't need to run it locally.
+If you have trouble, check the Next.js link above. Just download the code of this app to your machine and follow the rest of the steps, using this app's code instead of creating a new one with `npx create-next-app@latest nextjs-blog ...`
